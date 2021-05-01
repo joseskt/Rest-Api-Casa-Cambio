@@ -1,0 +1,6 @@
+# no se va a subir Variables
+.env
+
+# node
+node_modules
+dist

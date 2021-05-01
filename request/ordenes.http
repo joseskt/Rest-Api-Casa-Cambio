@@ -1,0 +1,44 @@
+
+GET http://localhost:3002/api/accounts
+###
+POST http://localhost:3002/api/accounts
+Content-Type: application/json
+
+{
+    
+    "precio": 4000,
+    "nombre": "pruebaasa",
+    "apellido": "pruebasasa",
+    "cuenta": 1234565456,
+    "banco": "accion",
+    "documento": "V",
+    "CI": 123456,
+    "img": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "done": true
+}
+
+###
+GET http://localhost:3002/api/accounts/608d82095d505b1f8896c3b4
+
+###
+DELETE http://localhost:3002/api/accounts/608d80e451635a40bc79aac9
+
+###
+GET http://localhost:3002/api/accounts/done
+
+###
+PUT http://localhost:3002/api/accounts/608d82095d505b1f8896c3b5
+Content-Type: application/json
+
+{
+    
+    "precio": 4000,
+    "nombre": "pruebaasa",
+    "apellido": "pruebasasa",
+    "cuenta": 1234565456,
+    "banco": "accion",
+    "documento": "V",
+    "CI": 123456,
+    "img": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "done": true
+}
