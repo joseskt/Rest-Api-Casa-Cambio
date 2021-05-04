@@ -1,44 +1,46 @@
 
-GET http://localhost:3002/api/accounts
+GET http://localhost:4000/api/accounts
 ###
-POST http://localhost:3002/api/accounts
+POST http://localhost:4000/api/accounts
 Content-Type: application/json
 
 {
     
-    "precio": 4000,
-    "nombre": "pruebaasa",
-    "apellido": "pruebasasa",
-    "cuenta": 1234565456,
-    "banco": "accion",
-    "documento": "V",
-    "CI": 123456,
-    "img": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "precio": 452121,
+    "nombre": "ajksjlaksajlskas",
+    "apellido": "producto",
+    "cuenta": 1235546,
+    "banco": "bod",
+    "documento": "J",
+    "CI": 456656,
+    "img": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "done": true
 }
 
 ###
-GET http://localhost:3002/api/accounts/608d82095d505b1f8896c3b4
+GET http://localhost:4000/api/accounts/60904c5c69f9120f184bc174
 
 ###
-DELETE http://localhost:3002/api/accounts/608d80e451635a40bc79aac9
+DELETE http://localhost:4000/api/accounts/60904be369f9120f184bc173
 
 ###
-GET http://localhost:3002/api/accounts/done
+GET http://localhost:4000/api/accounts/done
 
 ###
-PUT http://localhost:3002/api/accounts/608d82095d505b1f8896c3b5
+PUT http://localhost:4000/api/accounts/60904be369f9120f184bc173
 Content-Type: application/json
 
 {
     
-    "precio": 4000,
-    "nombre": "pruebaasa",
-    "apellido": "pruebasasa",
-    "cuenta": 1234565456,
-    "banco": "accion",
-    "documento": "V",
-    "CI": 123456,
-    "img": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "precio": 8000,
+    "nombre": "testeo123",
+    "apellido": "testeo2212",
+    "cuenta": 1235451,
+    "banco": "mercantil",
+    "documento": "J",
+    "CI": 456656,
+    "img": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "done": true
 }
+
+//CREAR ORDENES
